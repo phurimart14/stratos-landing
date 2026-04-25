@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    background: #0a0e1a;
+    color: #e2e8f0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    font-family:
+      "Inter",
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      "Noto Sans Thai",
+      sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Subtle grid background pattern */
+  .grid-bg {
+    background-image:
+      linear-gradient(to right, rgba(99, 102, 241, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(99, 102, 241, 0.06) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+
+  /* Hero radial glow */
+  .hero-glow {
+    background: radial-gradient(
+      ellipse 80% 50% at 50% -10%,
+      rgba(99, 102, 241, 0.25),
+      transparent 70%
+    );
+  }
+
+  /* Marquee track for trust logos */
+  .marquee {
+    display: flex;
+    gap: 4rem;
+    animation: marquee 40s linear infinite;
+    will-change: transform;
+    width: max-content;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Conic gradient for cards */
+  .card-gradient {
+    background:
+      linear-gradient(180deg, rgba(99, 102, 241, 0.04), transparent 50%),
+      rgba(255, 255, 255, 0.02);
+  }
+
+  /* Stat counter highlight */
+  .stat-shine {
+    background: linear-gradient(180deg, #f8fafc 0%, #94a3b8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
