@@ -27,7 +27,7 @@
 
 ## 🎯 ใช้ทำอะไร
 
-โปรเจกต์นี้เป็น **case study ที่ 4** ใน portfolio ของฟีฟ่า ([fifa-freelance](https://github.com/phurimart14/fifa-freelance))
+โปรเจกต์นี้เป็น **case study ที่ 4** ใน portfolio ของ ([fifa-freelance](https://github.com/phurimart14/fifa-freelance))
 จุดประสงค์: โชว์ skill ทำเว็บบริษัท B2B ระดับ enterprise — เป็นตลาดที่ลูกค้า Fastwork ต้องการบ่อยที่สุด ("รับทำเว็บบริษัท 3-5 หน้า")
 
 แตกต่างจาก case study อื่นใน portfolio:
